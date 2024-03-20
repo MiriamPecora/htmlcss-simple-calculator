@@ -18,21 +18,59 @@
 #calculator {
     background-color: aquamarine;
     width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 /* PRIMA SEZIONE CON NOME */
 
 #calc_name {
-
+    font-size: 50px;
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 90px;
 }
 
 /* SEZIONE NUMERO DIGITATO */
 
 #number {
+    color: teal;
+    background-color: black;
+    font-family: 'Seven Segment', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 50px;
+    padding: 20px;
+}
 
+/* SEZIONE PAD NUMERICO */
+
+#pad {
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+}
+
+/* CONTENITORE A SINISTRA */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    gap: 20px;
+
+}
+
+li {
+    padding: 10px 25px;
+    background-color: rgb(207, 206, 206);
+    border: 2px solid rgba(82, 79, 79, 0);
+    border-bottom-color: grey;
+    border-left-color: grey;
+    border-radius: 10px;
 }
 
