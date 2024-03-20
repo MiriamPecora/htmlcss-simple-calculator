@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+#content {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTENITORE GENERALE DELLA CALCOLATRICE */
+#calculator {
+    background-color: aquamarine;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* PRIMA SEZIONE CON NOME */
+
+#calc_name {
+
+}
+
+/* SEZIONE NUMERO DIGITATO */
+
+#number {
+
+}
+
