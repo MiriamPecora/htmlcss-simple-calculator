@@ -57,11 +57,11 @@
 
 .row {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: 45px;
-    gap: 20px;
+    gap: 10px;
+    padding-top: 10px;
 
 }
 
@@ -73,4 +73,14 @@ li {
     border-left-color: grey;
     border-radius: 10px;
 }
+
+#zero {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTENITORE A DESTRA */
+
 
